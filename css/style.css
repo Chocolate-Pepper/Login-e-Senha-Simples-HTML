@@ -1,0 +1,92 @@
+body
+{
+    background-image: url("../imagens/GatoImpressionado.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 35px;
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+
+p
+{
+    font-weight: bolder;
+    font-size: 40px;
+    color: darkred;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-right: 120px;
+}
+
+.agradecimento
+{
+    margin-left: 150px;
+    color: #000;
+    text-shadow: -1px -1px 0 #000;
+}
+
+.link
+{
+    color: rgb(92, 214, 255);
+    font-size: 15px;
+    margin-left: 125px;
+}
+#cadastro .linkado
+{
+    color:rgb(28, 26, 147);
+    margin-left: 0;
+}
+
+.linkado:hover
+{ 
+    background: rgba(56, 144, 173, 0.5); 
+}
+
+#titulo
+{
+    font-weight: bolder;
+    color: balck;
+}
+
+.inputes
+{
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: burlywood;
+    box-shadow: 5px 5px rgba(0, 0, 0, .7);
+}
+
+.inputes:focus /* "focus" serve para quando selecionar o input */
+{
+    border-color: blue;
+    border-top-color: cadetblue;
+    border-left-color: aquamarine;
+    border-right-color: aquamarine;
+    border-bottom-color: lightseagreen;
+    outline: none;
+}
+
+#enviar
+{
+    font-size: 18px;
+    border-top-color:blanchedalmond;
+    border-left-color:burlywood;
+    border-right-color: rgb(255, 201, 162);
+    border-bottom-color: rgb(244, 198, 100);
+    color:rgb(111, 72, 1);
+    border-radius: 50px;
+}
+
+#enviar:hover
+{
+    background-color: rgb(118, 255, 255); 
+    border-color: rgb(118, 255, 255);
+}
+
+#enviar:active /* "Active" serve para indicar quando o botão foi clicado, no momento do clique */
+{
+    transform: scale(1.2);
+    background-color: rgb(106, 245, 129);
+    border-color:rgb(106, 245, 129);
+}   
