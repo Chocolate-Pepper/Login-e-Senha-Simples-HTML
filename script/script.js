@@ -25,7 +25,7 @@ else if(user != usuario || password != senha)
 }
 else if(user === usuario && password === senha)
 {
-    window.location.href = "../html/paginaFinal.html";
+    window.location.href = "html/paginaFinal.html";
     valor = true;
     localStorage.setItem("validacao", valor)
 }
