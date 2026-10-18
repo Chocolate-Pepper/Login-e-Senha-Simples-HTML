@@ -2,19 +2,11 @@ body
 {
     background-repeat: no-repeat;
     background-size:cover;
+    background-image: url("../imagens/GatoLingudo.jpg");
     font-size: 35px;
     text-align: center;
     padding: 5px;
 }
-
-body.bg-desktop {
-  background-image: url("/imagens/GatoImpressionado.jpg");
-}
-
-body.bg-mobile {
-  background-image: url("/imagens/GatoLingudo.jpg ");
-}
-
 p
 {
     font-weight: bolder;
