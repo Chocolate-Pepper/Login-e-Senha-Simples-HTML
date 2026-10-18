@@ -1,5 +1,13 @@
 const valorSenha = document.getElementById("logsenha");
 valorSenha.type = "password";
+const celular = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+const elementoFundo = document.body;
+
+if(celular)
+{
+    elementoFundo.style.background = url("/imagens/Gato\ Lingudo.jpg");
+}
 
 const botao = document.getElementById("enviar").addEventListener("click", function(event){
 
