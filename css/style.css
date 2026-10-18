@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("../imagens/GatoLingudo.jpg");
+    background-image: image-set("../imagens/GatoLingudo.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     font-size: 35px;
