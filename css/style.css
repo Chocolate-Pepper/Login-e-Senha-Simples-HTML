@@ -7,15 +7,14 @@ body
     padding: 5px;
 }
 
-body.bg-desktop 
-{
-    background-image: url("/imagens/GatoImpressionado.jpg");
+body.bg-desktop {
+  background-image: url("/imagens/GatoImpressionado.jpg");
 }
 
-body.bg-mobile
-{
-    background-image: url("/imagens/Gato\ Lingudo.jpg");
+body.bg-mobile {
+  background-image: url("/imagens/Gato\ Lingudo.jpg ");
 }
+
 p
 {
     font-weight: bolder;
