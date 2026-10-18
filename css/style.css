@@ -1,6 +1,5 @@
 body
 {
-    background-image: url("../imagens/GatoImpressionado.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     font-size: 35px;
@@ -8,6 +7,15 @@ body
     padding: 5px;
 }
 
+body.bg-desktop 
+{
+    background-image: url("/imagens/GatoImpressionado.jpg");
+}
+
+body.bg-mobile
+{
+    background-image: url("/imagens/Gato\ Lingudo.jpg");
+}
 p
 {
     font-weight: bolder;
