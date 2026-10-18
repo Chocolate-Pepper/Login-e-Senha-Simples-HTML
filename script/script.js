@@ -4,9 +4,10 @@ const celular = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
 
 const elementoFundo = document.body;
 
-if(celular)
-{
-    elementoFundo.style.background = url("/imagens/Gato\ Lingudo.jpg");
+if (celular) {
+  document.body.classList.add('bg-mobile');
+} else {
+  document.body.classList.add('bg-desktop');
 }
 
 const botao = document.getElementById("enviar").addEventListener("click", function(event){
