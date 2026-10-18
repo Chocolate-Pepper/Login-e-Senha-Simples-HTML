@@ -1,12 +1,14 @@
 body
 {
+    background-image: url("../imagens/GatoLingudo.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    background-image: url("../imagens/GatoLingudo.jpg");
     font-size: 35px;
     text-align: center;
+    display: block;
     padding: 5px;
 }
+
 p
 {
     font-weight: bolder;
