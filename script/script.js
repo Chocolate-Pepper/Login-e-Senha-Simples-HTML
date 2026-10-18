@@ -1,17 +1,6 @@
 const valorSenha = document.getElementById("logsenha");
 valorSenha.type = "password";
 
-const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-
-if(isMobile)
-{
-    document.body.classList.add('bg-mobile');   
-}
-else
-{
-    document.body.classList.add('bg-desktop');
-}
-
 const botao = document.getElementById("enviar").addEventListener("click", function(event){
 
 event.preventDefault();
